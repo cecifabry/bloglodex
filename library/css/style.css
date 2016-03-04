@@ -8158,6 +8158,11 @@ div#linkcat-30.widget.widget_links h4.widgettitle {
 .badgenbdoc {
   font-size: 36px;
   border-color: #7b3294;
+  color: #fff;
+  background: #00a241;
+  font-weight: bold;
+  line-height: 1;
+  border-radius: 10px;
 }
 /*
 RETINA (2x RESOLUTION DEVICES)
