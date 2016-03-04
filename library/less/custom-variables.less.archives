@@ -57,8 +57,9 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+//@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif; cecilia
+@font-family-sans-serif:  "Abel", Helvetica, Arial, sans-serif;
+@font-family-serif:       "Abel", "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
@@ -80,12 +81,18 @@
 @line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
 
 //** By default, this inherits from the `<body>`.
-@headings-font-family:    inherit;
+//@headings-font-family:    inherit;cecilia
+//@headings-font-family:    Droid Serif;
+@headings-font-family: "Abel", Helvetica, Arial, sans-serif;
 @headings-font-weight:    500;
 @headings-line-height:    1.1;
 @headings-color:          inherit;
 
-@lodex-font-color : pink;
+// Inverted navbar brand label cecilia ajout
+@navbar-inverse-brand-font-family:    "Anton", Helvetica, Arial, sans-serif;
+@navbar-inverse-brand-font-weight:    bold;
+@navbar-inverse-brand-line-height:    1.1;
+
 
 //-- Iconography
 //
@@ -865,30 +872,3 @@
 @container-large-desktop:      ((1140px + @grid-gutter-width));
 //** For `@screen-lg-min` and up.
 @container-lg:                 @container-large-desktop;
-
-
-
-
-//== Theme Lodex cecilia - toutes mes modifs du starter theme Brew regroupées ici
-//
-
-//== Typography LODEX
-//
-//## Font, line-height, and color for body text, headings, and more.
-
-@font-family-sans-serif:   "Abel",Helvetica, Arial, sans-serif;
-@font-family-serif:       Georgia, "Times New Roman", Times, serif;
-//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
-@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
-@font-family-base:        @font-family-sans-serif;
-
-
-
-//** By default, this inherits from the `<body>`.
-@headings-font-family:    "Abel",Helvetica, Arial, sans-serif;
-@headings-font-weight:    500;
-@headings-line-height:    1.1;
-@headings-color:          inherit;
-
-//@lodex-font-color : pink;
-@lodex-font-family : "Anton", Helvetica, Arial, sans-serif;

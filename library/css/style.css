@@ -8141,6 +8141,21 @@ This is just for the sample BREW site.  Feel free to delete
   transition: all 0.35s ease;
 }
 /*
+theme LODEX par Cecilia
+
+*/
+.navbar-inverse .navbar-header a.navbar-brand {
+  font-family: "Anton", Helvetica, Arial, sans-serif;
+}
+div#linkcat-31.widget.widgetFooter.widget_links {
+  text-align: right;
+}
+div#linkcat-30.widget.widget_links h4.widgettitle {
+  color: transparent;
+  border-bottom: 0;
+  padding-bottom: -20px;
+}
+/*
 RETINA (2x RESOLUTION DEVICES)
 This applies to the retina iPhone (4s) and iPad (2,3) along with
 other displays with a 2x resolution. You can also create a media

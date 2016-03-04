@@ -5,11 +5,17 @@
 
 			<div id="content" class="row clearfix">
 
+                    
 						<div id="main" class="col-md-10 clearfix" role="main">
+						
+	<?php get_template_part( 'breadcrumb' ); ?>
 
+                        
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+							
 
-							<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article">
+
+					<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article">
 
 								<header class="article-header">
 									<div class="titlewrap clearfix">
