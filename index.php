@@ -3,7 +3,7 @@
 
     <div class="container-fluid">
 
-			<div id="content" class="row clearfix">
+			<div id="content" class="clearfix row">
 
                     
 						<div id="main" class="col-md-10 clearfix" role="main">
