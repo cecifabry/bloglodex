@@ -118,7 +118,8 @@ function emm_paginate_loop($start, $max, $page = 0) {
 // http://mkoerner.de/breadcrumbs-for-wordpress-themes-with-bootstrap-3/
 
 function custom_breadcrumb() {
-  if(!is_home()) {
+  //if(!is_home()) 
+  {
     echo '<ol class="breadcrumb">';
     echo '<li><a href="'.get_option('home').'">Home</a></li>';
     if (is_single()) {
